@@ -1,0 +1,677 @@
+/* Reseteo CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Cuerpo */
+body{
+    background: rgb(226,220,168);
+    background: linear-gradient(90deg, rgba(226,220,168,1) 0%, rgba(246,203,0,0.6839110644257703) 51%, rgba(226,220,168,1) 100%);
+    font-family: 'Karla', sans-serif;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 2fr auto;
+}
+/* Menu */
+.colorOrange {
+    background-color: orange;
+}
+.navbar-collapse {
+    text-align: center;
+}
+.dropdown-menu {
+    background-color: orange;
+}
+/* Parallax */
+.parallax {
+    text-align: center;
+    color: black;
+}
+.parallax h4 {
+    font-size: 600;
+}
+/* Footer */
+.footer {
+    width: 100%;
+    max-width: 1200px;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.footer .sugerencias {
+    width: 330px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: orange;
+}
+.footer .sugerencias:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.footer .trabaja {
+    width: 330px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: orange;
+}
+.footer .trabaja:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.footer .sociales {
+    width: 330px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: orange;
+}
+.footer .sociales:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.footer h4 {
+    font-weight: 500;
+}
+.footer p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+.footer img {
+    width: 60px;
+    height: 60px;
+}
+.derechos {
+    text-align: center;
+    font-size: 600;
+    color: black;
+}
+/* Pargina de Arma tu pc */
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 80px;
+    font-weight: 100;
+}
+/* Animaciones */
+.elegir {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.elegir .img {
+    width: 400px;
+    height: 160px;
+    border-radius: 25px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 100px;
+    text-align: center;
+    transition: all 0.35s;
+}
+.elegir .img:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
+}
+/* Pagina Hardware */
+.flex-container {
+    display: flex;
+    height: 1400px;
+    width: 1902px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 80px;
+}
+.flex-container p {
+    color: cornflowerblue;
+    font-size: 1.5rem;
+}
+.flex-container img {
+    margin: 15px;
+}
+/* Productos */
+.item1 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item1:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item2 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item2:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item3 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item3:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item4 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item4:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item5 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item5:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item6 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item6:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item7 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item7:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item8 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item8:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item9 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item9:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item10 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item10:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item11 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item11:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item12 {
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.item12:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.item12 img {
+    padding: 14px;
+}
+/* Pagina Perifericos */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: white;
+    height: 1700px;
+    width: 1902px;
+    padding: 20px;
+}
+.grid-container p {
+    color: cornflowerblue;
+    font-size: 1.5rem;
+}
+.grid-container img {
+    margin: 20px;
+}
+.perif1 {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif1:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif2 {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif2:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif3 {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif3:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif3 img {
+    padding: 15px;
+}
+.perif4 {
+    grid-area: 2 / 1 / 3 / 2;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif4:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif5 {
+    grid-area: 2 / 2 / 3 / 3;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif5:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif6 {
+    grid-area: 2 / 3 / 3 / 4;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif6:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif7 {
+    grid-area: 3 / 1 / 4 / 2;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif7:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif8 {
+    grid-area: 3 / 2 / 4 / 3;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif8:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif9 {
+    grid-area: 3 / 3 / 4 / 4;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif9:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif10 {
+    grid-area: 4 / 1 / 5 / 2;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif10:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif11 {
+    grid-area: 4 / 2 / 5 / 3;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif11:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+.perif11 img {
+    padding: 15px;
+}
+.perif12 {
+    grid-area: 4 / 3 / 5 / 4;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(211, 15, 15, 0.2);
+    transition: all 0.35s;
+    overflow: hidden;
+}
+.perif12:hover {
+    transform: transformY (-15px);
+    box-shadow: 0 12px 16px rgba(148, 10, 10, 0.8);
+}
+/* Pagina de Formularios */ 
+.form-container {
+    width: 1000px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    height: 1200px;
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px #000;
+}
+.titulo-container {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+}
+.nombre {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.nombre1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.apellido {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.apellido1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.correo {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.correo1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.sexo {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.pais {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.pais1 {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+.pais2 {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: left;
+}
+.exp {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.terminos {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+.boton {
+    border-radius: 6px;
+    border: 2px solid red;
+    color: red;
+    font-size: 35px;
+    padding: 10px;
+    width: 250px;
+    height: 130px;
+}
+/* Pagina Software */
+.info h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+.info p {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Pagina Movil */ 
+@media screen and (min-width:576px){
+    .contenedor{
+        width: 50%;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:768px){
+    .contenedor{
+        width: 25%;
+        padding: 25px;
+    }
+}
